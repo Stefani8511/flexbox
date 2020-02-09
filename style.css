@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: auto;
+  width: 100%;
+}
+
+
+.container {
+  border: 3px solid black;
+  height: 50vh;
+
+
+}
+
+.box {
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+
+
+}
+
+
+
+
+
+
+
+.box:hover {
+  color: antiquewhite;
+}
+
+
+.bloc1 {
+
+  cursor: pointer;
+  border: 1px solid black;
+  text-align: center;
+  /*margin: 20px;*/
+  padding: 20px;
+
+  background-color: red;
+}
+
+
+.bloc2 {
+
+  cursor: pointer;
+  border: 1px solid black;
+  text-align: center;
+  /*margin: 20px;*/
+  padding: 20px;
+  background-color: yellow;
+}
+
+.bloc3 {
+
+  cursor: pointer;
+  border: 1px solid black;
+  text-align: center;
+  /*margin: 20px;*/
+  padding: 20px;
+  background-color: rgb(12, 182, 12);
+}
