@@ -9,15 +9,19 @@
 
 .container {
   border: 3px solid black;
-  height: 50vh;
+  background-color: gray;
+  height: 100vh;
+
+display: flex;
 
 
 }
 
-.box {
-  height: 10rem;
-  width: 10rem;
+.box{
   display: flex;
+align-items: center;
+justify-content: space-around;
+
 
 
 }
@@ -25,27 +29,7 @@
 
 
 
-
-
-
-.box:hover {
-  color: antiquewhite;
-}
-
-
-.bloc1 {
-
-  cursor: pointer;
-  border: 1px solid black;
-  text-align: center;
-  /*margin: 20px;*/
-  padding: 20px;
-
-  background-color: red;
-}
-
-
-.bloc2 {
+.bloc {
 
   cursor: pointer;
   border: 1px solid black;
@@ -53,14 +37,11 @@
   /*margin: 20px;*/
   padding: 20px;
   background-color: yellow;
+  height: 150px;
+  width: 100px;
 }
 
-.bloc3 {
 
-  cursor: pointer;
-  border: 1px solid black;
-  text-align: center;
-  /*margin: 20px;*/
-  padding: 20px;
-  background-color: rgb(12, 182, 12);
-}
+
+
+
