@@ -7,23 +7,18 @@
 
 
 .container {
-  border: 3px solid black;
+  height: 100vh;
   background-color: gray;
-height: 100vh;
 
-display: flex;
-
-
-}
-
-
-
-.box{
 display: flex;
 align-items: center;
+justify-content: space-around;
 
 
 }
+
+
+
 
 
 
@@ -33,9 +28,11 @@ align-items: center;
   /*margin: 20px;*/
   padding: 20px;
   background-color: yellow;
-  height: 150px;
-  width: 100px;
+ /* height: 150px;*/
+ /* width: 100px;*/
 
+
+flex-grow: ;
 
 
 
